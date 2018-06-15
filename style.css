@@ -1,9 +1,43 @@
-.col-md-1; .col-md-12; .col-md-3; .col-md-4; .col-md-5; .col-md-6; .col-md-7; .col-md-8; .col-md-9; .col-md-10; .col-md-11; .col-md-12; {
+body{
+	font-family: verdana;
+	background-color: #E4E4E4;
+}
+
+main{
+	background-color: white;
+	margin: 12% 10%;
+	padding: 1%;
+}
+
+header{
+	text-align: center;
+	font-size: 0.6em;
+}
+
+h2{
+	color: red;
+}
+
+#fotoperfil{
+	border-radius: 100px;
+	margin-top: -13%;
+	border: solid 10px #E4E4E4;
+}
+
+footer{
+	background-color: white;
+	text-align: right;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 .col-md-12{
 	float: left;
 }
 
 .row{
-	clear:both;
+	clear:both;	
+	padding: 0.5%;
+	margin: 0.5%;
+	overflow: hidden;
 }
 
 .col-md-1{
@@ -15,39 +49,39 @@
 }
 
 .col-md-3{
-	width: 24,99%;
+	width: 24.99%;
 }
 
 .col-md-4{
-	width: 33,32%;
+	width: 33.32%;
 }
 
 .col-md-5{
-	width: 41,65%;
+	width: 41.65%;
 }
 
 .col-md-6{
-	width: 49,98%;
+	width: 49.98%;
 }
 
 .col-md-7{
-	width: 58,31%;
+	width: 58.31%;
 }
 
 .col-md-8{
-	width: 66,64%;
+	width: 66.64%;
 }
 
 .col-md-9{
-	width: 74,970%;
+	width: 74.970%;
 }
 
 .col-md-10{
-	width: 88,33%;
+	width: 88.33%;
 }
 
 .col-md-11{
-	width: 91,63%;
+	width: 91.63%;
 }
 
 .col-md-12{
@@ -55,7 +89,7 @@
 }
 
 .col-md-offset-1{
-	margin-left: 8,33%;
+	margin-left: 8.33%;
 }
 
 .col-md-offset-2{
@@ -63,24 +97,24 @@
 }
 
 .col-md-offset-3{
-	margin-left: 24,99%;
+	margin-left: 24.99%;
 }
 
 .col-md-offset-4{
-	margin-left: 33,32%;
+	margin-left: 33.32%;
 }
 
 .col-md-offset-5{
-	margin-left: 41,65%;
+	margin-left: 41.65%;
 }
 
 .col-md-offset-6{
-	margin-left: 49,98%;
+	margin-left: 49.98%;
 }
 
 .col-md-offset-7{
-	margin-left: 58,31%;
+	margin-left: 58.31%;
 }
 
 .col-md-offset-8{
-	margin-left: 66,64%;
+	margin-left: 66.64%;
