@@ -20,24 +20,117 @@ h2{
 
 #fotoperfil{
 	border-radius: 100px;
-	margin-top: -13%;
+	margin-top: -10%;
 	border: solid 10px #E4E4E4;
+}
+
+span{
+	color: red;
 }
 
 footer{
 	background-color: white;
 	text-align: right;
+	margin: -12% 10%;
+	padding: 1%;
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 .col-md-12{
 	float: left;
 }
 
+p{
+	padding: 0 2%;
+	font-size: 0.8em;
+}
+
 .row{
 	clear:both;	
-	padding: 0.5%;
+	padding-left: 2%;
 	margin: 0.5%;
 	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.año{
+	box-sizing: border-box;
+	float: left;
+	padding: -30% 3%;
+}
+
+.educacion{
+	background-color: #E4E4E4;
+	box-sizing: border-box;
+	float: left;
+	text-align: left;
+	margin-bottom: 4%;
+	margin-left: 4%;
+	padding-left: 2%;
+	border-radius: 5px;
+}
+
+.container {
+    width: 100%;
+}
+
+.skills {
+    text-align: left;
+    padding: 1%;
+    color: white;
+    background-color: red;
+    margin-bottom: 5%;
+}
+
+.html {
+	width: 90%;
+}
+.css {
+	width: 80%; 	
+}
+.js {
+	width: 65%; 
+}
+.php {
+	width: 60%; 
+}
+
+.fa{
+	color: silver;
+	margin: 16px 0px;
+}
+
+.checked {
+    color: red;
+}
+
+.linea{
+	background-color: silver;
+	height: 2px;
+	width: 100%;
+}
+
+ul{
+	padding-left: 0px;
+}
+
+ul li{
+	margin-left: 1em;
+}
+
+li{
+	font-size: 0.8em;
+}
+
+.hobbies{
+	list-style-type: none;
+	display: block;
+	float: left;
+	background-color: #3F487D;
+	color: white;
+	padding: 2% 3%;
+	margin: 2% 3% 2% 0%;
+	box-sizing: border-box;
+	border-radius: 5px;
 }
 
 .col-md-1{
